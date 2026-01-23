@@ -1,0 +1,51 @@
+id,name,category,price,stock_quantity,expiry_date,status
+1,Paracetamol 500mg,Pain Relief,5.00,150,2027-12-01,Available
+2,Ibuprofen 400mg,Pain Relief,6.50,120,2026-11-15,Available
+3,Amoxicillin 500mg,Antibiotics,12.00,40,2026-06-10,Available
+4,Cetirizine 10mg,Allergy,4.00,200,2028-01-20,Available
+5,Metformin 500mg,Diabetes Care,8.00,300,2027-09-30,Available
+6,Atorvastatin 20mg,Heart Health,18.50,60,2027-03-12,Available
+7,Omeprazole 20mg,Digestive Health,15.00,80,2027-05-22,Available
+8,Cough Syrup 100ml,Cold & Flu,7.50,15,2026-03-15,Available
+9,Aspirin 75mg,Heart Health,3.50,150,2028-02-14,Available
+10,Multivitamin Complex,Supplements,18.00,5,2026-08-01,Available
+11,Azithromycin 250mg,Antibiotics,22.00,0,2026-04-10,Out of Stock
+12,Insulin Glargine,Diabetes Care,45.00,25,2026-05-20,Available
+13,Loratadine 10mg,Allergy,5.50,100,2027-07-07,Available
+14,Vitamin C 1000mg,Supplements,9.00,50,2026-12-12,Available
+15,Diclofenac Gel,Pain Relief,8.50,30,2026-10-05,Available
+16,Pantoprazole 40mg,Digestive Health,14.00,90,2027-08-18,Available
+17,Losartan 50mg,Heart Health,10.00,110,2027-11-25,Available
+18,Ciprofloxacin 500mg,Antibiotics,13.50,20,2026-02-28,Available
+19,Glipizide 5mg,Diabetes Care,7.00,140,2027-04-15,Available
+20,Calcium + D3,Supplements,11.00,75,2028-03-30,Available
+21,Fexofenadine 120mg,Allergy,12.50,60,2027-06-14,Available
+22,Ranitidine 150mg,Digestive Health,5.00,0,2025-12-01,Out of Stock
+23,Salbutamol Inhaler,Respiratory,25.00,35,2027-01-10,Available
+24,Hydrocortisone Cream,Skin Care,6.00,45,2026-09-22,Available
+25,Bandages (Pack of 10),First Aid,3.00,500,2030-01-01,Available
+26,Antiseptic Liquid 500ml,First Aid,9.50,60,2028-05-15,Available
+27,Thermometer Digital,Devices,35.00,20,2030-12-31,Available
+28,Face Masks N95 (Pack),Safety,15.00,200,2030-12-31,Available
+29,Hand Sanitizer 200ml,Safety,4.50,150,2027-03-20,Available
+30,Probiotic Capsules,Digestive Health,20.00,40,2026-07-01,Available
+31,Fish Oil Omega-3,Supplements,16.00,85,2027-10-10,Available
+32,Magnesium Tablets,Supplements,10.50,65,2028-02-05,Available
+33,Zinc 50mg,Supplements,7.00,90,2027-12-15,Available
+34,Melatonin 3mg,Sleep Aid,11.50,55,2026-11-30,Available
+35,Pregnancy Test Kit,Diagnostics,8.00,100,2028-06-20,Available
+36,Glucose Monitor,Devices,55.00,10,2030-05-15,Available
+37,Test Strips (50ct),Diabetes Care,25.00,30,2027-08-01,Available
+38,Eye Drops (Dry Eyes),Eye Care,13.00,40,2026-05-10,Available
+39,Ear Drops (Wax Removal),Ear Care,9.00,35,2027-02-15,Available
+40,Nasal Spray (Decongestant),Cold & Flu,8.50,50,2026-09-10,Available
+41,Throat Lozenges (Honey),Cold & Flu,4.00,200,2027-04-01,Available
+42,Antifungal Cream,Skin Care,10.00,25,2026-12-20,Available
+43,Sunscreen SPF 50,Skin Care,18.00,45,2027-06-30,Available
+44,Aloe Vera Gel,Skin Care,7.50,60,2027-09-15,Available
+45,Baby Diapers (Pack),Baby Care,22.00,30,2030-01-01,Available
+46,Baby Formula 400g,Baby Care,30.00,20,2026-11-01,Available
+47,Electrolyte Powder,Supplements,5.50,120,2027-05-05,Available
+48,Lisinopril 10mg,Heart Health,9.00,130,2027-10-25,Available
+49,Simvastatin 20mg,Heart Health,11.00,95,2027-02-18,Available
+50,Dextromethorphan Syrup,Cold & Flu,8.00,40,2026-04-20,Available

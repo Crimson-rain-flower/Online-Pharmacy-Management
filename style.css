@@ -1,0 +1,84 @@
+/* Import a clean, modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-blue: #4f46e5;
+    --bg-light: #f9fafb;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: #1f2937;
+}
+
+
+/* Custom Card Hover Effect */
+.bg-white {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: var(--card-shadow);
+}
+
+
+.bg-white:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Sidebar Styling */
+aside {
+    border-right: 1px solid #e5e7eb;
+    z-index: 50;
+}
+
+
+aside a {
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+
+/* Custom Table Polish */
+table thead th {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+}
+
+
+table tbody tr {
+    transition: background-color 0.1s;
+}
+
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
+
+
+/* Chart Container height control */
+canvas {
+    max-width: 100% !important;
+}
+
