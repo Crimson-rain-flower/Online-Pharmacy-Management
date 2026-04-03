@@ -63,7 +63,7 @@ try:
         autocommit=False
     )
     cursor = conn.cursor()
-    print("✅ Connected\n")
+    print(" Connected\n")
 except Exception as e:
     print("❌ Connection failed:", e)
     sys.exit(1)
@@ -85,7 +85,7 @@ for cfg in FILES_CONFIG:
     df.columns = [c.strip() for c in df.columns]
     df = df.where(pd.notnull(df), None)
 
-    # ✅ FIX DATE/DATETIME PROPERLY
+    #  FIX DATE/DATETIME PROPERLY
     for col in df.columns:
         if "date" in col.lower():
             df[col] = pd.to_datetime(df[col], errors="coerce")
@@ -97,7 +97,7 @@ for cfg in FILES_CONFIG:
     # Create table
     cursor.execute(cfg["create_sql"])
 
-    # ✅ CLEAR TABLE BEFORE INSERT (prevents duplicate PK)
+    #  CLEAR TABLE BEFORE INSERT (prevents duplicate PK)
     cursor.execute(f"DELETE FROM `{table}`")
 
     cols = ", ".join(f"`{c}`" for c in df.columns)
@@ -116,6 +116,6 @@ cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
 cursor.close()
 conn.close()
 
-print("✅ ALL DATA IMPORTED SUCCESSFULLY!")
+print(" ALL DATA IMPORTED SUCCESSFULLY!")
 
 
